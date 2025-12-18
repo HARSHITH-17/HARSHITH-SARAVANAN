@@ -1,0 +1,42 @@
+/* Custom Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+    background: #020617; 
+    overflow-x: hidden; 
+}
+
+/* Animations */
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(30px); filter: blur(20px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.animate-fade-in { 
+    animation: fade-in 1s cubic-bezier(0.19, 1, 0.22, 1) forwards; 
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #020617; }
+::-webkit-scrollbar-thumb { background: #1d4ed8; }
+
+/* Utility to ensure content sits above background */
+.content-layer {
+    position: relative;
+    z-index: 10;
+}
+
+/* Nav Button Active State Line */
+.nav-btn-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #3b82f6; /* blue-500 */
+    box-shadow: 0 0 15px rgba(59,130,246,0.8);
+}
