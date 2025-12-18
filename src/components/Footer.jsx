@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="flex items-center gap-2 text-zinc-600">
                     <Code size={14} />
                     <span className="text-[10px] font-black uppercase tracking-widest">
-                        Engineered by <span className="text-blue-500">M1</span>
+                        Engineered by <span className="text-blue-500">HARSHITH SARAVANAN</span>
                     </span>
                 </div>
 
