@@ -14,9 +14,6 @@ const Hero = () => {
                 className="inline-flex items-center gap-3 px-4 py-2 bg-blue-900/10 border border-blue-800/30 rounded-full w-fit mb-8 backdrop-blur-sm"
             >
                 <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-                <span className="text-[10px] font-bold text-blue-400 tracking-[0.3em] uppercase block">
-                    System v1.0 Live
-                </span>
             </motion.div>
 
             {/* Main Headline */}
