@@ -6,14 +6,7 @@ const Hero = () => {
     return (
         <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-10 lg:px-24 pt-24 md:pt-0 relative z-10">
 
-            {/* Badge */}
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-3 px-4 py-2 bg-blue-900/10 border border-blue-800/30 rounded-full w-fit mb-8 backdrop-blur-sm"
-            >
-
+            
             {/* Main Headline */}
             <div className="space-y-2 mb-8">
                 <motion.h1
