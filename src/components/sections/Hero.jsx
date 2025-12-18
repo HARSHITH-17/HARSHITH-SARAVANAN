@@ -13,8 +13,6 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center gap-3 px-4 py-2 bg-blue-900/10 border border-blue-800/30 rounded-full w-fit mb-8 backdrop-blur-sm"
             >
-                <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-            </motion.div>
 
             {/* Main Headline */}
             <div className="space-y-2 mb-8">
