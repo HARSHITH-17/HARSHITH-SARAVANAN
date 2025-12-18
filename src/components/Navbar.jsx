@@ -23,15 +23,15 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'py-4 bg-black/50 backdrop-blur-xl border-b border-white/5' : 'py-6 bg-transparent'}`}>
+            <nav className={fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'py-4 bg-black/50 backdrop-blur-xl border-b border-white/5' : 'py-6 bg-transparent'}}>
                 <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
                     <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
                         <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-transform group-hover:scale-110">
                             <Cpu className="text-white w-5 h-5" />
                         </div>
-                        <div className="hidden md:block">
-                            <h1 className="font-bold text-sm tracking-widest uppercase leading-tight text-white">
+                        <div className="block">
+                            <h1 className="font-bold text-lg md:text-xl tracking-widest uppercase leading-tight text-white">
                                 Harshith <span className="text-blue-500">Saravanan</span>
                             </h1>
                         </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
             </nav>
 
             {/* Mobile Menu Overlay */}
-            <div className={`fixed inset-0 z-40 bg-black/95 backdrop-blur-3xl transition-transform duration-500 md:hidden flex flex-col items-center justify-center gap-8 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={fixed inset-0 z-40 bg-black/95 backdrop-blur-3xl transition-transform duration-500 md:hidden flex flex-col items-center justify-center gap-8 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}}>
                 {navLinks.map((link) => (
                     <a
                         key={link.name}
