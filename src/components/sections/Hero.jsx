@@ -4,9 +4,10 @@ import { ChevronRight, Globe } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-10 lg:px-24 pt-24 md:pt-0 relative z-10">
+        <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-10 lg:px-24 pt-32 md:pt-48 relative z-10">
 
-            
+
+
             {/* Main Headline */}
             <div className="space-y-2 mb-8">
                 <motion.h1
