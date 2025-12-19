@@ -80,7 +80,7 @@ const About = () => {
                                 <div className="space-y-2">
                                     <span className="text-zinc-100 text-sm font-bold block">• CAM Technical Skill Assessment</span>
                                     <span className="text-zinc-100 text-sm font-bold block">•  Computer Aided Manufacturing (CAM) for Technical Certification</span>
-                                    <span className="text-zinc-100 text-sm font-bold block">• Design & Mfg Cloud Certification</span>
+                                    <span className="text-zinc-100 text-sm font-bold block">• Design & Manufacturing Cloud Certification</span>
                                 </div>
                             </div>
                         </motion.div>
@@ -96,6 +96,34 @@ const About = () => {
                             <div>
                                 <h4 className="text-[10px] font-black uppercase text-blue-400 mb-2 tracking-[0.2em]">CAM Intelligence</h4>
                                 <span className="text-zinc-200 text-base font-semibold block">5-Axis Simulation & Logic</span>
+                            </div>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.3 }}
+                            className="flex flex-col gap-5 p-8 bg-blue-950/10 border border-blue-900/30 rounded-2xl hover:bg-blue-900/20 hover:border-blue-600 transition-all group"
+                        >
+                            <Cpu className="text-blue-500 w-6 h-6" />
+                            <div>
+                                <h4 className="text-[10px] font-black uppercase text-blue-400 mb-2 tracking-[0.2em]">Mould Tech</h4>
+                                <span className="text-zinc-200 text-base font-semibold block">Advanced Injection Systems</span>
+                            </div>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.3 }}
+                            className="flex flex-col gap-5 p-8 bg-blue-950/10 border border-blue-900/30 rounded-2xl hover:bg-blue-900/20 hover:border-blue-600 transition-all group"
+                        >
+                            <Cpu className="text-blue-500 w-6 h-6" />
+                            <div>
+                                <h4 className="text-[10px] font-black uppercase text-blue-400 mb-2 tracking-[0.2em]">Certification</h4>
+                                <span className="text-zinc-200 text-base font-semibold block">GTTC Industry Certified</span>
                             </div>
                         </motion.div>
 
