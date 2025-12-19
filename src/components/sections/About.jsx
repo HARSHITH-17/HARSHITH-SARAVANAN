@@ -79,7 +79,7 @@ const About = () => {
                                 <h4 className="text-[10px] font-black uppercase text-blue-400 tracking-[0.2em]">Autodesk Professional</h4>
                                 <div className="space-y-2">
                                     <span className="text-zinc-100 text-sm font-bold block">• CAM Technical Skill Assessment</span>
-                                    <span className="text-zinc-100 text-sm font-bold block">•  Computer Aided Manufacturing (CAM) for Technical Certification</span>
+                                    <span className="text-zinc-100 text-sm font-bold block">• Computer Aided Manufacturing (CAM) for Technical Certification</span>
                                     <span className="text-zinc-100 text-sm font-bold block">• Design & Manufacturing Cloud Certification</span>
                                 </div>
                             </div>
@@ -142,11 +142,8 @@ const About = () => {
                         </motion.div>
 
                     </div>
-
                 </div>
-
             </div>
-
         </section>
     );
 };
